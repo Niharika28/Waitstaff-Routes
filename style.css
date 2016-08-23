@@ -1,0 +1,89 @@
+.div-body{
+  width: 1200px;
+  height: 600px;
+  margin: 5px auto;
+  border: 2px solid black;
+}
+
+.page-header {
+	text-align: center;
+	font-family: 'Comic Sans MS';
+}
+
+.super{
+	font-family: 'Comic Sans MS';
+	width: 400px;
+	height: 400px;
+	margin-top: 20px;
+  margin-right:50px;
+	position: relative; 
+  left:100px; 
+	border: 1px solid black;
+	border-collapse: collapse;
+	float: left;
+}
+
+thead {
+	border: 1px solid black;
+	font-size: 24px;
+}
+.sub {
+	font-family: 'Comic Sans MS';
+	width: 400px;
+	height: 150px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	position: relative; 
+  right:0px; 
+	border-bottom: 1px solid black;
+	border-collapse: collapse;
+	float: right;
+
+}
+
+.sub1{
+	font-family: 'Comic Sans MS';
+	width: 400px;
+	height: 150px;
+	margin-top: 50px;
+	position: relative;
+	right:0px;
+	float: right;
+	border-top: 1px solid black;
+	border-collapse: collapse;
+}
+
+
+td {
+	height: 35px;
+	padding-right: 10px;	
+}
+
+
+#submission-row {
+	text-align: center;
+}
+
+#reset {
+	position: relative;
+	margin-top: 60px;
+	left:400px;
+	text-align: right;
+}
+input.ng-pristine {
+    background-color: lightgrey;
+}
+input.ng-dirty {
+    background-color: lightgreen;
+}
+input.ng-valid {
+    background-color: orange;
+}
+.error {
+	color: red;
+}
+
+.displayError {
+	position: relative;
+	left:50px;
+}
