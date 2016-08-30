@@ -16,6 +16,12 @@
 	font-family: 'Comic Sans MS';
 	padding: 10px;
 }
+.main {
+	position: relative;
+	left: 300px;
+	font-family: 'Comic Sans MS';
+	display: block;
+}
 a {
 	text-align: center;
 }
